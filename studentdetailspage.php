@@ -10,7 +10,7 @@ $db=mysqli_connect ("111.118.215.242", "rydef1gn_ryde", "Welcome","rydef1gn_ryde
 
 if(!$db)
 {
-    die("Connection failed: " . mysqli_connect_error());
+    die("Connection failed: " . mysqli_connect_error());        
 }
 
 
